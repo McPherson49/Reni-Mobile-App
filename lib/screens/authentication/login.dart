@@ -8,6 +8,7 @@ import 'package:reni_app/screens/authentication/widgets/email_phone_input.dart';
 import 'package:reni_app/screens/authentication/widgets/forgot_pass_text.dart';
 import 'package:reni_app/screens/authentication/widgets/password_input.dart';
 import 'package:reni_app/screens/constants/fonts.dart';
+import 'package:reni_app/screens/dashboard/home/home.dart';
 import 'package:sizer/sizer.dart';
 
 import '../constants/colors.dart';
@@ -190,7 +191,7 @@ class Login extends StatelessWidget {
                 ),
                 const AuthButtons(
                   text: "Sign In",
-                  route: Register(),
+                  route: Dashboard(),
                 ),
               ],
             ),

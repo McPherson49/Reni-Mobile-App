@@ -24,7 +24,7 @@ class ReniHeader extends StatelessWidget {
               "DASHBOARD",
               textAlign: TextAlign.right,
               style: TextStyle(
-                fontSize: 15,
+                fontSize: 20,
                 fontFamily: camptonFont,
                 fontWeight: FontWeight.w300,
                 color: black,

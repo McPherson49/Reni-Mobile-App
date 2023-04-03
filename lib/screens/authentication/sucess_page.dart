@@ -133,7 +133,7 @@ class _SuccessPageState extends State<SuccessPage> {
                     child: const AuthButtons(
                       text: "Sign In",
                       boxColor: white,
-                      route: DashboardHeader(),
+                      route: Dashboard(),
                     ),
                   ),
                 ],
